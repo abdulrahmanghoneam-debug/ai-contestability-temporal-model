@@ -1,0 +1,585 @@
+{
+  "scope": "Synthetic timed model only; legal availability and actual durations require separate verification.",
+  "scenario": {
+    "notice": 2,
+    "access_delay": 3,
+    "evidence_delay": 2,
+    "retention": 3,
+    "budget": 4,
+    "filing_window": 6,
+    "horizon": 12,
+    "review_delay": 2,
+    "preservation_delay": 1,
+    "late_after": 4,
+    "late_penalty": 1,
+    "grace": 3,
+    "deadline_from_notice": false,
+    "informative_notice": false,
+    "preservation_available": false,
+    "protective_filing": false,
+    "review_authorized": true,
+    "target_error": true
+  },
+  "analytical_diagnosis": {
+    "reachable": false,
+    "earliest_correction": null,
+    "earliest_record": 5,
+    "earliest_evidence_request": 5,
+    "earliest_evidence": 8,
+    "earliest_complete_support": 8,
+    "deadline": 6,
+    "evidence_cutoff": 6,
+    "conditions": {
+      "target_error": true,
+      "empowered_review": true,
+      "base_budget": true,
+      "timely_notice": true,
+      "support_before_cutoff": false,
+      "completion_before_horizon": true,
+      "evidence_survives": false
+    },
+    "failed_conditions": [
+      "support_before_cutoff",
+      "evidence_survives"
+    ]
+  },
+  "graph_check": {
+    "reachable": false,
+    "earliest_correction": null,
+    "explored_states": 83,
+    "discovered_states": 83
+  },
+  "inclusion_minimal_repairs": [
+    {
+      "add_options": [
+        "informative_notice",
+        "preservation_available"
+      ],
+      "earliest_completion": 7,
+      "certificate": [
+        {
+          "action": "initial",
+          "state": {
+            "t": 0,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 1,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "preserve_evidence",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": 3,
+            "filed": -1,
+            "review": -1,
+            "spent": 1
+          }
+        },
+        {
+          "action": "request_evidence",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": 4,
+            "preservation": 3,
+            "filed": -1,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "request_record",
+          "state": {
+            "t": 2,
+            "record": 5,
+            "evidence": 4,
+            "preservation": 3,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 3,
+            "record": 5,
+            "evidence": 4,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 4,
+            "record": 5,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "file_request_for_review",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 5,
+            "review": 7,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 6,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 5,
+            "review": 7,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 7,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 5,
+            "review": 7,
+            "spent": 4
+          }
+        }
+      ]
+    },
+    {
+      "add_options": [
+        "preservation_available",
+        "protective_filing"
+      ],
+      "earliest_completion": 10,
+      "certificate": [
+        {
+          "action": "initial",
+          "state": {
+            "t": 0,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 1,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "file_request_for_review",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": 2,
+            "review": -1,
+            "spent": 1
+          }
+        },
+        {
+          "action": "preserve_evidence",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": 3,
+            "filed": 2,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "request_record",
+          "state": {
+            "t": 2,
+            "record": 5,
+            "evidence": -1,
+            "preservation": 3,
+            "filed": 2,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 3,
+            "record": 5,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 4,
+            "record": 5,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "request_evidence",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 6,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 7,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": 2,
+            "review": -1,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 8,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 2,
+            "review": 10,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 9,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 2,
+            "review": 10,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 10,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 2,
+            "review": 10,
+            "spent": 4
+          }
+        }
+      ]
+    },
+    {
+      "add_options": [
+        "preservation_available",
+        "deadline_from_notice"
+      ],
+      "earliest_completion": 10,
+      "certificate": [
+        {
+          "action": "initial",
+          "state": {
+            "t": 0,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 1,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": -1,
+            "filed": -1,
+            "review": -1,
+            "spent": 0
+          }
+        },
+        {
+          "action": "preserve_evidence",
+          "state": {
+            "t": 2,
+            "record": -1,
+            "evidence": -1,
+            "preservation": 3,
+            "filed": -1,
+            "review": -1,
+            "spent": 1
+          }
+        },
+        {
+          "action": "request_record",
+          "state": {
+            "t": 2,
+            "record": 5,
+            "evidence": -1,
+            "preservation": 3,
+            "filed": -1,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 3,
+            "record": 5,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 4,
+            "record": 5,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": -1,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 2
+          }
+        },
+        {
+          "action": "request_evidence",
+          "state": {
+            "t": 5,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 6,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 7,
+            "record": -2,
+            "evidence": 8,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 8,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": -1,
+            "review": -1,
+            "spent": 3
+          }
+        },
+        {
+          "action": "file_request_for_review",
+          "state": {
+            "t": 8,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 8,
+            "review": 10,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 9,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 8,
+            "review": 10,
+            "spent": 4
+          }
+        },
+        {
+          "action": "wait_one_tick",
+          "state": {
+            "t": 10,
+            "record": -2,
+            "evidence": -2,
+            "preservation": -2,
+            "filed": 8,
+            "review": 10,
+            "spent": 4
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "all_grid_configurations": 34560,
+  "data_status": "Entirely synthetic exhaustive finite-domain computational experiment; no human or LLM measurements.",
+  "fixed_parameters": {
+    "filing_window": 6,
+    "grace": 3,
+    "horizon": 12,
+    "late_after": 4,
+    "preservation_delay": 1,
+    "review_authorized": true,
+    "review_delay": 2,
+    "target_error": true
+  },
+  "formula_mismatches": 0,
+  "grid_values": {
+    "access_delay": [
+      1,
+      2,
+      3
+    ],
+    "budget": [
+      3,
+      4
+    ],
+    "evidence_delay": [
+      1,
+      2,
+      3
+    ],
+    "four_binary_options": [
+      "deadline_from_notice",
+      "informative_notice",
+      "preservation_available",
+      "protective_filing"
+    ],
+    "late_penalty": [
+      0,
+      1,
+      2
+    ],
+    "notice": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "retention": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "joint_rescue": [
+    {
+      "deadline_origin": "decision",
+      "factorial_count_contrast": 57,
+      "informative_notice": false,
+      "joint_only_rescue": 57,
+      "parameter_settings": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "factorial_count_contrast": 7,
+      "informative_notice": true,
+      "joint_only_rescue": 7,
+      "parameter_settings": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "factorial_count_contrast": 12,
+      "informative_notice": false,
+      "joint_only_rescue": 12,
+      "parameter_settings": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "factorial_count_contrast": 0,
+      "informative_notice": true,
+      "joint_only_rescue": 0,
+      "parameter_settings": 720
+    }
+  ],
+  "main_grid": {
+    "configurations": 11520,
+    "late_penalty": 1
+  },
+  "maximum_explored_states_in_one_configuration": 3481,
+  "monotonic_option_checks": 69120,
+  "monotonic_violations": 0,
+  "summary": [
+    {
+      "deadline_origin": "decision",
+      "explored_states": 37978,
+      "late_penalty": 0,
+      "mechanism": "Base",
+      "reachable": 282,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 172174,
+      "late_penalty": 0,
+      "mechanism": "F",
+      "reachable": 360,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 62836,
+      "late_penalty": 0,
+      "mechanism": "N",
+      "reachable": 498,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 258810,
+      "late_penalty": 0,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 119252,
+      "late_penalty": 0,
+      "mechanism": "NP",
+      "reachable": 530,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 419642,
+      "late_penalty": 0,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 71942,
+      "late_penalty": 0,
+      "mechanism": "P",
+      "reachable": 342,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 281233,
+      "late_penalty": 0,
+      "mechanism": "PF",
+      "reachable": 481,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 36178,
+      "late_penalty": 0,
+      "mechanism": "Base",
+      "reachable": 360,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 207188,
+      "late_penalty": 0,
+      "mechanism": "F",
+      "reachable": 360,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 59830,
+      "late_penalty": 0,
+      "mechanism": "N",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 306704,
+      "late_penalty": 0,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 112641,
+      "late_penalty": 0,
+      "mechanism": "NP",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 467046,
+      "late_penalty": 0,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 65605,
+      "late_penalty": 0,
+      "mechanism": "P",
+      "reachable": 486,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 321856,
+      "late_penalty": 0,
+      "mechanism": "PF",
+      "reachable": 486,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 43282,
+      "late_penalty": 1,
+      "mechanism": "Base",
+      "reachable": 258,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 201566,
+      "late_penalty": 1,
+      "mechanism": "F",
+      "reachable": 316,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 73442,
+      "late_penalty": 1,
+      "mechanism": "N",
+      "reachable": 498,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 304116,
+      "late_penalty": 1,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 133134,
+      "late_penalty": 1,
+      "mechanism": "NP",
+      "reachable": 530,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 463402,
+      "late_penalty": 1,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 80863,
+      "late_penalty": 1,
+      "mechanism": "P",
+      "reachable": 312,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 317498,
+      "late_penalty": 1,
+      "mechanism": "PF",
+      "reachable": 427,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 41584,
+      "late_penalty": 1,
+      "mechanism": "Base",
+      "reachable": 314,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 250548,
+      "late_penalty": 1,
+      "mechanism": "F",
+      "reachable": 316,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 68902,
+      "late_penalty": 1,
+      "mechanism": "N",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 374820,
+      "late_penalty": 1,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 122929,
+      "late_penalty": 1,
+      "mechanism": "NP",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 531818,
+      "late_penalty": 1,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 74605,
+      "late_penalty": 1,
+      "mechanism": "P",
+      "reachable": 424,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 377156,
+      "late_penalty": 1,
+      "mechanism": "PF",
+      "reachable": 438,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 44336,
+      "late_penalty": 2,
+      "mechanism": "Base",
+      "reachable": 258,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 211134,
+      "late_penalty": 2,
+      "mechanism": "F",
+      "reachable": 294,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 76788,
+      "late_penalty": 2,
+      "mechanism": "N",
+      "reachable": 498,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 318430,
+      "late_penalty": 2,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 137456,
+      "late_penalty": 2,
+      "mechanism": "NP",
+      "reachable": 530,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 476716,
+      "late_penalty": 2,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 82433,
+      "late_penalty": 2,
+      "mechanism": "P",
+      "reachable": 312,
+      "total": 720
+    },
+    {
+      "deadline_origin": "decision",
+      "explored_states": 334146,
+      "late_penalty": 2,
+      "mechanism": "PF",
+      "reachable": 387,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 43222,
+      "late_penalty": 2,
+      "mechanism": "Base",
+      "reachable": 292,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 264388,
+      "late_penalty": 2,
+      "mechanism": "F",
+      "reachable": 294,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 71754,
+      "late_penalty": 2,
+      "mechanism": "N",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 396592,
+      "late_penalty": 2,
+      "mechanism": "NF",
+      "reachable": 534,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 126047,
+      "late_penalty": 2,
+      "mechanism": "NP",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 551940,
+      "late_penalty": 2,
+      "mechanism": "NPF",
+      "reachable": 573,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 78125,
+      "late_penalty": 2,
+      "mechanism": "P",
+      "reachable": 384,
+      "total": 720
+    },
+    {
+      "deadline_origin": "notice",
+      "explored_states": 401081,
+      "late_penalty": 2,
+      "mechanism": "PF",
+      "reachable": 405,
+      "total": 720
+    }
+  ],
+  "total_explored_states_across_configurations": 10075168
+}

@@ -1,0 +1,18 @@
+test_boundary_exhaustion (test_model.TransitionTests.test_boundary_exhaustion) ... ok
+test_certificate_replay (test_model.TransitionTests.test_certificate_replay) ... ok
+test_horizon_is_separate_from_filing_deadline (test_model.TransitionTests.test_horizon_is_separate_from_filing_deadline) ... ok
+test_inclusive_retention_boundary_and_irreversible_loss (test_model.TransitionTests.test_inclusive_retention_boundary_and_irreversible_loss) ... ok
+test_informative_notice_reorders_requests_without_new_evidence (test_model.TransitionTests.test_informative_notice_reorders_requests_without_new_evidence) ... ok
+test_no_correction_without_authority_or_supported_target_error (test_model.TransitionTests.test_no_correction_without_authority_or_supported_target_error) ... ok
+test_notice_based_deadline_does_not_cancel_latency_amplification (test_model.TransitionTests.test_notice_based_deadline_does_not_cancel_latency_amplification) ... ok
+test_preservation_must_finish_before_loss_and_be_affordable (test_model.TransitionTests.test_preservation_must_finish_before_loss_and_be_affordable) ... ok
+test_protective_filing_does_not_restore_missing_evidence (test_model.TransitionTests.test_protective_filing_does_not_restore_missing_evidence) ... ok
+test_reject_invalid_assumptions (test_model.TransitionTests.test_reject_invalid_assumptions) ... ok
+test_already_feasible_needs_no_added_option (test_audit.RepairTests.test_already_feasible_needs_no_added_option) ... ok
+test_counterexample_has_three_incomparable_minimal_repairs (test_audit.RepairTests.test_counterexample_has_three_incomparable_minimal_repairs) ... ok
+test_options_cannot_create_missing_authority (test_audit.RepairTests.test_options_cannot_create_missing_authority) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.235s
+
+OK

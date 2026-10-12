@@ -1,0 +1,15 @@
+{
+  "release_version": "1.0.0",
+  "scope": "Unit tests executed solely from the copied release directory; not a rerun of the full study.",
+  "command": "python -B -m unittest -v test_model test_audit",
+  "python_version": "3.12.14",
+  "standard_library_only": true,
+  "tests_run": 13,
+  "expected_tests": 13,
+  "passed": true,
+  "exit_code": 0,
+  "elapsed_seconds": 0.567011,
+  "completed_at_utc": "2026-10-11T21:26:20.941438+00:00",
+  "tested_module_origins": "All model, audit_case, test_model and test_audit modules resolved inside the release root.",
+  "full_study_outputs": "Copied without alteration from computational_study; not regenerated during release packaging."
+}

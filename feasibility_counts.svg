@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="550" viewBox="0 0 1040 550">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#172b3a">
+<text x="50" y="32" font-size="23" font-weight="bold">Synthetic feasibility across 720 parameter settings per mechanism</text>
+<text x="50" y="58" font-size="14">Counts of reachable settings; not observed people, effect sizes, or legal compliance scores.</text>
+<line x1="80" y1="420.0" x2="1000" y2="420.0" stroke="#dbe3e8"/>
+<text x="68" y="425.0" text-anchor="end" font-size="13">0</text>
+<line x1="80" y1="366.6666666666667" x2="1000" y2="366.6666666666667" stroke="#dbe3e8"/>
+<text x="68" y="371.6666666666667" text-anchor="end" font-size="13">120</text>
+<line x1="80" y1="313.33333333333337" x2="1000" y2="313.33333333333337" stroke="#dbe3e8"/>
+<text x="68" y="318.33333333333337" text-anchor="end" font-size="13">240</text>
+<line x1="80" y1="260.0" x2="1000" y2="260.0" stroke="#dbe3e8"/>
+<text x="68" y="265.0" text-anchor="end" font-size="13">360</text>
+<line x1="80" y1="206.66666666666669" x2="1000" y2="206.66666666666669" stroke="#dbe3e8"/>
+<text x="68" y="211.66666666666669" text-anchor="end" font-size="13">480</text>
+<line x1="80" y1="153.33333333333331" x2="1000" y2="153.33333333333331" stroke="#dbe3e8"/>
+<text x="68" y="158.33333333333331" text-anchor="end" font-size="13">600</text>
+<line x1="80" y1="100.0" x2="1000" y2="100.0" stroke="#dbe3e8"/>
+<text x="68" y="105.0" text-anchor="end" font-size="13">720</text>
+<rect x="110" y="305.3333333333333" width="32" height="114.66666666666667" fill="#315c85"/>
+<text x="126" y="299.3333333333333" text-anchor="middle" font-size="13">258</text>
+<rect x="148" y="280.44444444444446" width="32" height="139.55555555555554" fill="#da8d24"/>
+<text x="164" y="274.44444444444446" text-anchor="middle" font-size="13">314</text>
+<text x="145" y="446" text-anchor="middle" font-size="15">Base</text>
+<rect x="222" y="198.66666666666669" width="32" height="221.33333333333331" fill="#315c85"/>
+<text x="238" y="192.66666666666669" text-anchor="middle" font-size="13">498</text>
+<rect x="260" y="182.66666666666666" width="32" height="237.33333333333334" fill="#da8d24"/>
+<text x="276" y="176.66666666666666" text-anchor="middle" font-size="13">534</text>
+<text x="257" y="446" text-anchor="middle" font-size="15">N</text>
+<rect x="334" y="281.3333333333333" width="32" height="138.66666666666669" fill="#315c85"/>
+<text x="350" y="275.3333333333333" text-anchor="middle" font-size="13">312</text>
+<rect x="372" y="231.55555555555554" width="32" height="188.44444444444446" fill="#da8d24"/>
+<text x="388" y="225.55555555555554" text-anchor="middle" font-size="13">424</text>
+<text x="369" y="446" text-anchor="middle" font-size="15">P</text>
+<rect x="446" y="279.55555555555554" width="32" height="140.44444444444446" fill="#315c85"/>
+<text x="462" y="273.55555555555554" text-anchor="middle" font-size="13">316</text>
+<rect x="484" y="279.55555555555554" width="32" height="140.44444444444446" fill="#da8d24"/>
+<text x="500" y="273.55555555555554" text-anchor="middle" font-size="13">316</text>
+<text x="481" y="446" text-anchor="middle" font-size="15">F</text>
+<rect x="558" y="184.44444444444443" width="32" height="235.55555555555557" fill="#315c85"/>
+<text x="574" y="178.44444444444443" text-anchor="middle" font-size="13">530</text>
+<rect x="596" y="165.33333333333334" width="32" height="254.66666666666666" fill="#da8d24"/>
+<text x="612" y="159.33333333333334" text-anchor="middle" font-size="13">573</text>
+<text x="593" y="446" text-anchor="middle" font-size="15">NP</text>
+<rect x="670" y="182.66666666666666" width="32" height="237.33333333333334" fill="#315c85"/>
+<text x="686" y="176.66666666666666" text-anchor="middle" font-size="13">534</text>
+<rect x="708" y="182.66666666666666" width="32" height="237.33333333333334" fill="#da8d24"/>
+<text x="724" y="176.66666666666666" text-anchor="middle" font-size="13">534</text>
+<text x="705" y="446" text-anchor="middle" font-size="15">NF</text>
+<rect x="782" y="230.22222222222223" width="32" height="189.77777777777777" fill="#315c85"/>
+<text x="798" y="224.22222222222223" text-anchor="middle" font-size="13">427</text>
+<rect x="820" y="225.33333333333334" width="32" height="194.66666666666666" fill="#da8d24"/>
+<text x="836" y="219.33333333333334" text-anchor="middle" font-size="13">438</text>
+<text x="817" y="446" text-anchor="middle" font-size="15">PF</text>
+<rect x="894" y="165.33333333333334" width="32" height="254.66666666666666" fill="#315c85"/>
+<text x="910" y="159.33333333333334" text-anchor="middle" font-size="13">573</text>
+<rect x="932" y="165.33333333333334" width="32" height="254.66666666666666" fill="#da8d24"/>
+<text x="948" y="159.33333333333334" text-anchor="middle" font-size="13">573</text>
+<text x="929" y="446" text-anchor="middle" font-size="15">NPF</text>
+<rect x="80" y="475" width="17" height="17" fill="#315c85"/>
+<text x="105" y="489" font-size="14">Deadline measured from decision</text>
+<rect x="440" y="475" width="17" height="17" fill="#da8d24"/>
+<text x="465" y="489" font-size="14">Deadline measured from notice</text>
+<text x="80" y="525" font-size="14">N: informative notice | P: optional evidence preservation | F: protective filing + 3-tick supplementation</text>
+</g></svg>
